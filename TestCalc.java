@@ -30,4 +30,8 @@ public class TestCalc {
         Calc.divide(10, 0);
     }
 
+    @Test
+    public void TestFail() {
+        assertEquals(10, Calc.add(5,8));
+    }
 }
